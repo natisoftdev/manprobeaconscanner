@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ManProBeaconScanner</string>
+    <string name="avvBeaconVicini">Beacon nearby</string>
+    <string name="avvBluetoothAcceso">Bluetooth enabled</string>
+    <string name="avvBluetoothSpento">Bluetooth NOT enabled</string>
+    <string name="dataScansione">Scan Date</string>
+    <string name="mexAvvBlueAcceso">Sorry, this device does not support Bluetooth LE.</string>
+    <string name="mexAvvBlueSpento">Please enable bluetooth in the settings and restart this application.</string>
+    <string name="mexFuoriRegione">I can not see a beacon.</string>
+    <string name="mexPermessiLimitati">The location has not been granted so this app will not be able to detect beacons when it is in the background.</string>
+    <string name="mexRichiestaPosizione">This app collects location data to enable device location, even when the app is closed, in private environments with the purpose of optimizing business production processes.</string>
+    <string name="mexScanAttiva">Beacons scanning activeted</string>
+    <string name="mexVedoBeacon">I can see a beacon.</string>
+    <string name="permessiLimitati">Limited functionality</string>
+    <string name="richiestaPosizione">This app requires access to GPS location</string>
+    <string name="titleMonitoring">Beacon detected</string>
+    <string name="versione">Version</string>
+    <string name="txtDistance">Distance</string>
+    <string name="settings_icon">Settings Icon</string>
+    <string name="txtGooglePlay" translatable="false">on Google Play</string>
+    <string name="txtCopiaToast_2" translatable="false">to the Database</string>
+    <string name="txtCopiaToast_1" translatable="false">You are sending</string>
+    <string name="txtCopia" translatable="false">Copy</string>
+    <string name="sezione3" translatable="false">Information</string>
+    <string name="settings_label" translatable="false">Settings</string>
+    <string name="pref_login" translatable="false">Login</string>
+    <string name="pref_password" translatable="false">Password</string>
+    <string name="pref_generic_summary">The data is provided by the operator</string>
+    <string name="pref_versione">Application version</string>
+    <string name="pref_updateApp">Search for updates</string>
+    <string name="pref_stringa_connessione">Database identifier</string>
+    <string name="invioDatiEmail">Send data via Email</string>
+    <string name="inviaReport">Send report</string>
+    <string name="errore">Error</string>
+    <string name="assistenza">Support</string>
+    <string name="pref_summary_indirizzoInvio">Address used to connect to the portal. For example, https://sviluppo.manpronet.com</string>
+    <string name="pref_title_indirizzoInvio">Portal address</string>
+    <string name="copy_ok" translatable="false">Given Copied!</string>
+    <string name="copy_err" translatable="false">The data was not copied!</string>
+</resources>

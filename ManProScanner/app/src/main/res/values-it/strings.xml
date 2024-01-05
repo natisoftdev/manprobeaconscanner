@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ManProBeaconScanner</string>
+    <string name="versione">Versione</string>
+    <string name="titleMonitoring">Beacon rilevati</string>
+    <string name="richiestaPosizione">Questa app richiede l\'accesso alla posizione GPS</string>
+    <string name="permessiLimitati">Funzionalità limitata</string>
+    <string name="mexScanAttiva">Scansione dei Beacons attiva</string>
+    <string name="mexRichiestaPosizione">Questa app raccoglie i dati sulla posizione per abilitare la localizzazione del dispositivo, anche quando l\'applicazione è chiusa, in ambienti privati con lo scopo di ottimizzare i processi di produzione aziendali.</string>
+    <string name="mexPermessiLimitati">Poiché l\'accesso alla posizione non è stato concesso, questa app non sarà in grado di rilevare i beacon quando è in background.</string>
+    <string name="dataScansione">Data Scansione</string>
+    <string name="mexVedoBeacon">Vedo di nuovo un beacon</string>
+    <string name="mexFuoriRegione">Non vedo più un beacon.</string>
+    <string name="avvBeaconVicini">Beacon nelle vicinanze</string>
+    <string name="avvBluetoothAcceso">Bluetooth abilitato</string>
+    <string name="avvBluetoothSpento">Bluetooth NON abilitato</string>
+    <string name="mexAvvBlueAcceso">Spiacenti, questo dispositivo non supporta Bluetooth LE.</string>
+    <string name="mexAvvBlueSpento">Si prega di abilitare bluetooth nelle impostazioni e riavviare questa applicazione.</string>
+    <string name="txtDistance" translatable="false">Distanza</string>
+    <string name="settings_icon">Settings Icon</string>
+    <string name="txtGooglePlay" translatable="false">su Google Play</string>
+    <string name="txtCopiaToast_2" translatable="false">al Database</string>
+    <string name="txtCopiaToast_1" translatable="false">Stai inviando</string>
+    <string name="txtCopia" translatable="false">Copia</string>
+    <string name="sezione3" translatable="false">Informazioni</string>
+    <string name="settings_label" translatable="false">Impostazioni</string>
+    <string name="assistenza" translatable="false">Assistenza</string>
+    <string name="copy_err" translatable="false">Il Dato non è stato Copiato!</string>
+    <string name="copy_ok" translatable="false">Dato Copiato!</string>
+    <string name="errore" translatable="false">Errore</string>
+    <string name="inviaReport" translatable="false">Invia report</string>
+    <string name="invioDatiEmail" translatable="false">Invia i dati via Email</string>
+    <string name="pref_versione" translatable="false">Versione dell\'applicazione</string>
+    <string name="pref_updateApp" translatable="false">Cerca aggiornamenti</string>
+    <string name="pref_title_indirizzoInvio" translatable="false">Indirizzo del portale</string>
+    <string name="pref_summary_indirizzoInvio" translatable="false">"Indirizzo utilizzato per collegarsi al portale. Ad esempio https://sviluppo.manpronet.com "</string>
+    <string name="pref_stringa_connessione" translatable="false">Identificativo del database</string>
+    <string name="pref_password" translatable="false">Password</string>
+    <string name="pref_login" translatable="false">Login</string>
+    <string name="pref_generic_summary" translatable="false">Il dato viene fornito dal gestore</string>
+</resources>

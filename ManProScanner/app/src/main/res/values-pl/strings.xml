@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ManProBeaconScanner</string>
+    <string name="assistenza">Wsparcie</string>
+    <string name="errore">Błąd</string>
+    <string name="inviaReport">Wyślij raport</string>
+    <string name="invioDatiEmail">Wyślij dane przez e-mail</string>
+    <string name="avvBeaconVicini">Beacon w pobliżu</string>
+    <string name="avvBluetoothSpento">Bluetooth NIE włączony</string>
+    <string name="dataScansione">Data skanowania</string>
+    <string name="mexAvvBlueAcceso">Niestety, to urządzenie nie obsługuje technologii Bluetooth LE.</string>
+    <string name="mexAvvBlueSpento">Włącz bluetooth w ustawieniach i uruchom ponownie aplikację.</string>
+    <string name="mexFuoriRegione">Nie widzę już światła ostrzegawczego.</string>
+    <string name="mexPermessiLimitati">Ponieważ dostęp do lokalizacji nie został przyznany, ta aplikacja nie będzie w stanie wykryć sygnałów nawigacyjnych, gdy jest w tle.</string>
+    <string name="mexRichiestaPosizione">Udziel dostępu do lokalizacji, aby ta aplikacja mogła wykryć sygnały nawigacyjne w tle.</string>
+    <string name="mexScanAttiva">Skanowanie aktywnych beacons</string>
+    <string name="mexVedoBeacon">Znów widzę latarnię</string>
+    <string name="permessiLimitati">Ograniczona funkcjonalność</string>
+    <string name="richiestaPosizione">Ta aplikacja wymaga dostępu do pozycji GPS</string>
+    <string name="pref_generic_summary">Dane są dostarczane przez operatora</string>
+    <string name="pref_login" translatable="false">Zaloguj się</string>
+    <string name="pref_password" translatable="false">Hasło</string>
+    <string name="pref_stringa_connessione">Identyfikator bazy danych</string>
+    <string name="titleMonitoring">Beacon wykryto</string>
+    <string name="versione">Wersja</string>
+    <string name="pref_summary_indirizzoInvio">Adres używany do połączenia z portalem. Na przykład https://sviluppo.manpronet.com</string>
+    <string name="pref_title_indirizzoInvio">Adres portalu</string>
+    <string name="pref_updateApp">Wyszukaj aktualizacje</string>
+    <string name="pref_versione">Wersja aplikacji</string>
+    <string name="avvBluetoothAcceso">Bluetooth włączony</string>
+    <string name="txtDistance" translatable="false">Dystans</string>
+    <string name="settings_icon">Settings Icon</string>
+    <string name="txtGooglePlay" translatable="false">on Google Play</string>
+    <string name="txtCopiaToast_2" translatable="false">to the Database</string>
+    <string name="txtCopiaToast_1" translatable="false">You are sending</string>
+    <string name="txtCopia" translatable="false">Copy</string>
+    <string name="sezione3" translatable="false">Information</string>
+    <string name="settings_label" translatable="false">Settings</string>
+    <string name="copy_err" translatable="false">Dane nie zostały skopiowane!</string>
+    <string name="copy_ok" translatable="false">Dane skopiowane!</string>
+</resources>

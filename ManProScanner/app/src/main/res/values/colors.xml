@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sfondo">#FEFEFE</color>
+    <color name="txtColor">#FEFEFE</color>
+    <color name="sfondoCard">#D2D2D2</color>
+    <color name="sfondoRecordBeacon">#91B80F</color>
+</resources>

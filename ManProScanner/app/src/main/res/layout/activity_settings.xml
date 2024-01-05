@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_default"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <PreferenceCategory
+        android:title="@string/assistenza"
+        android:key="pref_key_sezione1">
+<!--
+        <EditTextPreference
+            android:capitalize="none"
+            android:inputType="text|textEmailAddress"
+            android:key="pref_indirizzoInvio"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:summary="@string/pref_summary_indirizzoInvio"
+            android:title="@string/pref_title_indirizzoInvio" />
+-->
+        <EditTextPreference
+            android:capitalize="none"
+            android:inputType="text|textEmailAddress"
+            android:key="pref_stringa_connessione"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:summary="@string/pref_generic_summary"
+            android:title="Stringa di connessione" />
+<!--
+        <EditTextPreference
+            android:title="@string/pref_stringa_connessione"
+            android:summary="@string/pref_generic_summary"
+            android:key="pref_db_string"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:inputType="text|textEmailAddress"
+            android:capitalize="none" />
+-->
+        <EditTextPreference
+            android:title="@string/pref_login"
+            android:summary="@string/pref_generic_summary"
+            android:key="pref_db_login"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:inputType="text|textEmailAddress"
+            android:capitalize="none" />
+
+        <EditTextPreference
+            android:title="@string/pref_password"
+            android:summary="@string/pref_generic_summary"
+            android:key="pref_db_password"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:password="true"
+            android:capitalize="none" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Scansione"
+        android:key="pref_key_sezione2">
+        <EditTextPreference
+            android:title="@string/time_scan"
+            android:summary="@string/pref_time_scan"
+            android:key="pref_time_scan"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:inputType="number" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Controllo Notifiche"
+        android:key="pref_key_controllo_notifiche">
+        <EditTextPreference
+            android:title="Tempo Notifica"
+            android:summary="Il valore di default è 5 minuti"
+            android:key="pref_controllo_notifiche"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:inputType="number" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Preferenze di Visualizzazione"
+        android:key="pref_key_sezione3">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="Beacon Conosciuti"
+            android:summary="Se attivo applica un filtro nella visualizzazione dei Beacon percepiti"
+            android:key="pref_beacon_noti" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Database"
+        android:key="pref_key_sezione3">
+
+        <Preference android:title="Aggiornare Beacon Ambienti" android:key="updateBA" android:summary=""/>
+
+        <Preference android:title="Svuotare Database" android:key="deleteDB" android:summary="Non sarà più possibile recuperare i dati"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/sezione3" >
+        <Preference android:title="@string/pref_updateApp" android:key="updateApp" android:summary="@string/txtGooglePlay"/>
+        <Preference android:title="@string/pref_versione" android:key="versionNumberUser" android:summary=""/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

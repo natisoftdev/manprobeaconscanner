@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ManProBeaconScanner</string>
+    <string name="avvBeaconVicini">Beacon cerca</string>
+    <string name="avvBluetoothAcceso">Bluetooth habilitado</string>
+    <string name="avvBluetoothSpento">Bluetooth NO habilitado</string>
+    <string name="dataScansione">Fecha de Escaneo</string>
+    <string name="mexAvvBlueAcceso">Lo sentimos, este dispositivo no es compatible con Bluetooth LE.</string>
+    <string name="mexAvvBlueSpento">Por favor, active bluetooth en la configuración y reinicie esta aplicación.</string>
+    <string name="mexFuoriRegione">Ya no veo un beacon.</string>
+    <string name="mexRichiestaPosizione">Permita el acceso a la ubicación para que esta aplicación pueda detectar las balizas en segundo plano.</string>
+    <string name="mexScanAttiva">Escaneo de Beacons activas</string>
+    <string name="mexVedoBeacon">Veo un beacon.</string>
+    <string name="permessiLimitati">Funcionalidad limitada</string>
+    <string name="richiestaPosizione">Esta aplicación requiere acceso a la posición GPS</string>
+    <string name="titleMonitoring">Beacon detectadas</string>
+    <string name="versione">Versión</string>
+    <string name="mexPermessiLimitati">Dado que no se ha otorgado acceso a la ubicación, esta aplicación no podrá detectar balizas cuando esté en segundo plano.</string>
+    <string name="txtDistance" translatable="false">Distancia</string>
+    <string name="settings_icon">Settings Icon</string>
+    <string name="txtCopiaToast_2" translatable="false">to the Database</string>
+    <string name="txtCopiaToast_1" translatable="false">You are sending</string>
+    <string name="txtCopia" translatable="false">Copy</string>
+    <string name="settings_label" translatable="false">Settings</string>
+    <string name="assistenza">Apoyo</string>
+    <string name="errore">Error</string>
+    <string name="inviaReport">Enviar informe</string>
+    <string name="invioDatiEmail">Enviar datos por correo electrónico</string>
+    <string name="pref_generic_summary">Los datos son proporcionados por el operador.</string>
+    <string name="pref_login" translatable="false">Login</string>
+    <string name="pref_password" translatable="false">Password</string>
+    <string name="pref_stringa_connessione">Identificador de base de datos</string>
+    <string name="pref_summary_indirizzoInvio">Dirección utilizada para conectarse al portal. Por ejemplo, https://sviluppo.manpronet.com</string>
+    <string name="pref_title_indirizzoInvio">Direccion del portal</string>
+    <string name="pref_updateApp">Buscar actualizaciones</string>
+    <string name="pref_versione">Versión de la aplicación</string>
+    <string name="sezione3">Información</string>
+    <string name="txtGooglePlay">en Google Play</string>
+    <string name="copy_err" translatable="false">¡Los datos no se copiaron!</string>
+    <string name="copy_ok" translatable="false">Dado copiado!</string>
+</resources>

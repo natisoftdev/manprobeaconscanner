@@ -1,0 +1,52 @@
+<resources>
+    <!-- MonitoringActivity -->
+    <string name="app_name">ManProBeaconScanner</string>
+    <string name="titleMonitoring">Beacon rilevati</string>
+    <string name="versione">Versione</string>
+    <string name="richiestaPosizione">Questa app richiede l\'accesso alla posizione GPS</string>
+    <string name="mexRichiestaPosizione">Questa app raccoglie i dati sulla posizione per abilitare la localizzazione del dispositivo in ambienti privati con lo scopo di ottimizzare i processi di produzione aziendali.</string>
+    <string name="permessiLimitati">Funzionalità limitata</string>
+    <string name="mexPermessiLimitati">Poiché l\'accesso alla posizione non è stato concesso, questa app non sarà in grado di rilevare i beacon quando è in background.</string>
+    <string name="avvBluetoothSpento">Bluetooth not enabled</string>
+    <string name="mexAvvBlueSpento">Please enable bluetooth in settings and restart this application.</string>
+    <string name="avvBluetoothAcceso">Bluetooth LE not available</string>
+    <string name="mexAvvBlueAcceso">Sorry, this device does not support Bluetooth LE.</string>
+    <!-- BeaconReferenceApplication -->
+    <string name="mexScanAttiva">Scansione dei Beacons attiva</string>
+    <string name="mexVedoBeacon">I see a beacon again</string>
+    <string name="mexFuoriRegione">I no longer see a beacon.</string>
+    <string name="dataScansione">Data Scansione</string>
+    <string name="avvBeaconVicini">Beacon nelle vicinanze</string>
+
+    <string name="copy_ok">Dato Copiato!</string>
+    <string name="copy_err">Il Dato non è stato Copiato!</string>
+
+    <!-- Impostazioni -->
+    <string name="settings_label">Impostazioni</string>
+    <string name="pref_summary_indirizzoInvio">Indirizzo utilizzato per collegarsi al portale. Ad esempio https://sviluppo.manpronet.com </string>
+    <string name="pref_title_indirizzoInvio">Indirizzo del portale</string>
+    <string name="pref_stringa_connessione">Identificativo del database</string>
+    <string name="pref_generic_summary">Il dato viene fornito dal gestore</string>
+    <string name="pref_login">Login</string>
+    <string name="pref_password">Password</string>
+    <string name="inviaReport">Invia report</string>
+    <string name="invioDatiEmail">Invia i dati via Email</string>
+    <string name="sezione3">Informazioni</string>
+    <string name="pref_updateApp">Cerca aggiornamenti</string>
+    <string name="txtGooglePlay">su Google Play</string>
+    <string name="pref_versione">Versione dell\'applicazione</string>
+
+    <!-- Volley -->
+    <string name="errore">Errore</string>
+    <string name="assistenza">Assistenza</string>
+    <string name="txtMac" translatable="false">Mac</string>
+    <string name="txtDistance">Distanza</string>
+    <string name="txtTxPower" translatable="false">TxPower</string>
+    <string name="txtRssi" translatable="false">Rssi</string>
+    <string name="txtCopia">Copia</string>
+    <string name="txtCopiaToast_1">Stai inviando</string>
+    <string name="txtCopiaToast_2">al Database</string>
+    <string name="settings_icon">Settings Icon</string>
+    <string name="pref_time_scan">Il valore di default è 30 secondi</string>
+    <string name="time_scan">Tempo di scansione</string>
+</resources>

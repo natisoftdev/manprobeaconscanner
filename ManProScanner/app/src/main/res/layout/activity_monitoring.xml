@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.manpro.beaconscanner.MonitoringActivity"
+    android:backgroundTint="@color/sfondo"
+    android:background="@color/sfondo">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/titleMonitoring"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/img_settings"
+        android:layout_width="80dp"
+        android:layout_height="41dp"
+        android:layout_alignEnd="@+id/textView1"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/sfondo"
+        android:background="@color/sfondo"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_settings"
+        android:contentDescription="@string/settings_icon" />
+
+    <TextView
+        android:id="@+id/monitoringText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:textSize="15sp"
+        android:ems="10"
+        android:gravity="left|top"
+        android:inputType="textMultiLine"
+        tools:ignore="RtlHardcoded,TextViewEdits">
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listaBeacon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/monitoringText" />
+<!--
+    Se il pezzo sotto attivo aggiungere
+    android:layout_above="@+id/textVersion" a RecyclerView
+
+
+    <TextView
+        android:id="@+id/textVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textStyle="italic" />
+        -->
+</RelativeLayout>
